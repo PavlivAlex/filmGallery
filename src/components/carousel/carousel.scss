@@ -1,0 +1,34 @@
+@import "../../assets/css/variables.scss";
+
+.carousel-wrapper {
+  width: 680px;
+  display: flex;
+  position: relative;
+
+  .ant-carousel {
+    width: 100%;
+    .slick-dots-bottom {
+      bottom: -26px;
+      .slick-active {
+        button {
+          background: $blue;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  .arrow-button {
+    display: flex;
+    align-items: center;
+    padding: 66px 5px 26px 5px;
+    cursor: pointer;
+    svg {
+      width: 28px;
+      height: 28px;
+      color: $blue;
+      &:hover {
+        color: $dark-blue;
+      }
+    }
+  }
+}

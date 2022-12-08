@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+.ds-flex{
+  display: flex;
+}
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.width-100{
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  cursor: pointer;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 1px;
+  background: rgba(29, 29, 29, 0.9);
+}

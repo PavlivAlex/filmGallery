@@ -1,0 +1,12 @@
+@import "../../assets/css/variables.scss";
+
+.ant-spin-spinning {
+  display: flex;
+  align-items: center;
+  .ant-spin-text {
+    h5 {
+      color: $blue;
+      margin: 0 $margin-from-text;
+    }
+  }
+}

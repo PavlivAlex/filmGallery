@@ -1,0 +1,100 @@
+[
+  {
+    "src1": {
+      "title": "The Godfather",
+      "genre ": "crime",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "icon": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "views": 4,
+      "points": 18
+    },
+    "src2": {
+      "title": "Schindlers List",
+      "genre ": "drama",
+      "director": "Steven Spielberg",
+      "year": 1993,
+      "icon": "https://flxt.tmsimg.com/assets/p15227_p_v13_be.jpg",
+      "views": 4,
+      "points": 18
+    },
+    "src3": {
+      "title": "Forrest Gump",
+      "genre ": "drama",
+      "director": "Robert Zemeckis",
+      "year": 1994,
+      "icon": "https://i.ytimg.com/vi/hf_lCA-T99c/movieposter_en.jpg",
+      "views": 4,
+      "points": 18
+    }
+  },
+  {
+    "src1": {
+      "title": "Fight Club",
+      "genre ": "drama",
+      "director": "David Fincher",
+      "year": 1999,
+      "icon": "https://upload.wikimedia.org/wikipedia/uk/6/6d/Fight_Club_%D0%BF%D0%BB%D0%B0%D0%BA%D0%B0%D1%82.jpg",
+      "views": 4,
+      "points": 18
+    },
+    "src2": {
+      "title": "Inception",
+      "genre ": "action",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "icon": "https://flxt.tmsimg.com/assets/p7825626_p_v8_af.jpg",
+      "views": 4,
+      "points": 18
+    },
+    "src3": {
+      "title": "The Matrix",
+      "genre ": "action",
+      "director": "Lana Wachowski",
+      "year": 1999,
+      "icon": "https://flxt.tmsimg.com/assets/p22804_p_v8_av.jpg",
+      "views": 4,
+      "points": 18
+    }
+  },
+  {
+    "src1": {
+      "title": "Goodfellas",
+      "genre ": "crime",
+      "director": "Martin Scorsese",
+      "year": 1990,
+      "icon": "https://m.media-amazon.com/images/M/MV5BY2NkZjEzMDgtN2RjYy00YzM1LWI4ZmQtMjIwYjFjNmI3ZGEwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "views": 4,
+      "points": 18
+    },
+    "src2": {
+      "title": "Seven",
+      "genre ": "crime",
+      "director": "David Fincher",
+      "year": 1995,
+      "icon": "https://m.media-amazon.com/images/M/MV5BZDgyZmY5MmItY2I3Ny00NjA4LWFhNmItMGQ4ZGJhZDk5YjU3XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_.jpg",
+      "views": 4,
+      "points": 18
+    },
+    "src3": {
+      "title": "Life Is Beautiful",
+      "genre ": "comedy",
+      "director": "Roberto Benigni",
+      "year": 1997,
+      "icon": "https://m.media-amazon.com/images/I/91GZPT-X1BL._RI_.jpg",
+      "views": 4,
+      "points": 18
+    }
+  },
+  {
+    "src1": {
+      "title": "Interstellar",
+      "genre ": "adventure",
+      "director": "Christopher Nolan",
+      "year": 2014,
+      "icon": "https://play-lh.googleusercontent.com/cp94GJsYWZCrf4bmYp3yZkuN7FAaorxZWh008_DUji0Qj2cfyILd7-h_611zbbiUEkg=w240-h480-rw",
+      "views": 4,
+      "points": 18
+    }
+  }
+]

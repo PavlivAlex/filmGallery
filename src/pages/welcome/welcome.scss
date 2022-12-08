@@ -1,0 +1,36 @@
+@import '../../assets/css/variables.scss';
+
+.welcome-page-wrapper {
+  height: 100%;
+  background-image: url("../../assets/images/welcomeBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  .welcome-text {
+    color: $blue;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  .welcome-movies-photo {
+    -webkit-box-shadow: 0px 0px 17px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 17px 7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 17px 7px rgba(0, 0, 0, 0.75);
+  }
+  .welcome-links-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    .blue-btn {
+      width: 200px;
+      margin-left: $margin-from-text;
+      border-radius: 12px;
+      background: $blue;
+      span {
+        color: white;
+      }
+    }
+  }
+}

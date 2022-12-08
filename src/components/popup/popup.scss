@@ -1,0 +1,30 @@
+@import "../../assets/css/variables.scss";
+
+.popup-wrapper {
+  .ant-modal-content {
+    min-height: 300px;
+    height: 500px;
+    border-radius: 15px !important;
+    .ant-modal-close:hover{
+      color: $blue;
+    }
+    .ant-modal-body {
+      height: 100%;
+      border-radius: 15px;
+      overflow: hidden;
+
+      .dialog-body {
+        padding: 12px 0;
+        height: 100%;
+      }
+    }
+  }
+}
+.ant-modal-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .ant-modal {
+    top: 0;
+  }
+}

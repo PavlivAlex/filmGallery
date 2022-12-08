@@ -1,0 +1,36 @@
+@import "../../assets/css/variables.scss";
+
+.header-box {
+  height: 60px;
+  width: 100%;
+  padding: 0 20px;
+  background: #828282;
+  .blue-btn {
+    margin-left: $margin-from-text;
+    border-radius: 12px;
+    background: $blue;
+    span {
+      color: white;
+    }
+  }
+  .welcome-user-block {
+    display: flex;
+    align-items: center;
+    .logout-btn {
+      display: flex;
+      align-items: center;
+      width: 24px;
+      height: 24px;
+      margin-left: $margin-from-text;
+      cursor: pointer;
+    }
+  }
+
+  .ant-typography {
+    font-size: 22px;
+  }
+  .or-text {
+    font-size: 16px;
+    margin-left: $margin-from-text;
+  }
+}
