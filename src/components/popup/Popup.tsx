@@ -1,4 +1,4 @@
-import { Modal as BasikPopup } from "antd";
+import { Modal as BasicPopup } from "antd";
 
 import "./popup.scss";
 
@@ -21,8 +21,7 @@ function Popup({
 }: PopupProps) {
 
   return (
-    <div>
-      <BasikPopup
+      <BasicPopup
         className={`popup-wrapper ${className}`}
         open={isPopuplVisible}
         onCancel={onCancel}
@@ -32,8 +31,7 @@ function Popup({
         centered
       >
         <div className="dialog-body">{children}</div>
-      </BasikPopup>
-    </div>
+      </BasicPopup>
   );
 }
 
